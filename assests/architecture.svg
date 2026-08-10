@@ -1,0 +1,45 @@
+<svg viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram: input flows through an API into processing, which branches into AI and data, converging into output">
+  <rect width="900" height="380" fill="#0A0A0A"/>
+
+  <text x="24" y="28" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="11" letter-spacing="2" fill="#52525B">HOW SYSTEMS ARE COMPOSED</text>
+
+  <!-- connecting lines -->
+  <g stroke="#2A2A2A" stroke-width="1.5" fill="none">
+    <line x1="450" y1="72" x2="450" y2="110"/>
+    <line x1="450" y1="152" x2="450" y2="190"/>
+    <path d="M 450 232 L 330 268"/>
+    <path d="M 450 232 L 570 268"/>
+    <path d="M 330 312 L 450 342"/>
+    <path d="M 570 312 L 450 342"/>
+  </g>
+
+  <!-- traveling signal -->
+  <circle r="3.5" fill="#F5F5F5">
+    <animateMotion dur="6s" repeatCount="indefinite"
+      path="M 450 72 L 450 190 L 450 232 L 330 268 L 330 312 L 450 342 L 450 232 L 570 268 L 570 312 L 450 342" />
+  </circle>
+
+  <!-- INPUT -->
+  <rect x="380" y="46" width="140" height="26" rx="3" fill="none" stroke="#2A2A2A"/>
+  <text x="450" y="63" text-anchor="middle" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="12" letter-spacing="2" fill="#F5F5F5">INPUT</text>
+
+  <!-- API -->
+  <rect x="380" y="112" width="140" height="40" rx="3" fill="none" stroke="#2A2A2A"/>
+  <text x="450" y="137" text-anchor="middle" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="12" letter-spacing="2" fill="#F5F5F5">API</text>
+
+  <!-- PROCESSING -->
+  <rect x="360" y="192" width="180" height="40" rx="3" fill="none" stroke="#2A2A2A"/>
+  <text x="450" y="217" text-anchor="middle" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="12" letter-spacing="2" fill="#F5F5F5">PROCESSING</text>
+
+  <!-- AI -->
+  <rect x="260" y="270" width="140" height="40" rx="3" fill="none" stroke="#2A2A2A"/>
+  <text x="330" y="295" text-anchor="middle" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="12" letter-spacing="2" fill="#A1A1AA">AI</text>
+
+  <!-- DATA -->
+  <rect x="500" y="270" width="140" height="40" rx="3" fill="none" stroke="#2A2A2A"/>
+  <text x="570" y="295" text-anchor="middle" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="12" letter-spacing="2" fill="#A1A1AA">DATA</text>
+
+  <!-- OUTPUT -->
+  <rect x="380" y="344" width="140" height="26" rx="3" fill="none" stroke="#2A2A2A"/>
+  <text x="450" y="361" text-anchor="middle" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="12" letter-spacing="2" fill="#F5F5F5">OUTPUT</text>
+</svg>

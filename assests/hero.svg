@@ -1,0 +1,33 @@
+<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rudra Chintalwar — Full-Stack Engineer, AI and Data Science">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#141414" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" fill="#0A0A0A"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+
+  <!-- corner coordinates -->
+  <text x="24" y="32" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="11" letter-spacing="1" fill="#52525B">18.5204&#176; N, 73.8567&#176; E</text>
+  <text x="1176" y="32" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="11" letter-spacing="1" fill="#52525B" text-anchor="end">PUNE, INDIA</text>
+
+  <!-- main title -->
+  <text x="22" y="176" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="92" font-weight="700" letter-spacing="-2" fill="#F5F5F5">RUDRA CHINTALWAR</text>
+
+  <!-- subtitle -->
+  <text x="26" y="210" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="15" letter-spacing="4" fill="#A1A1AA">FULL-STACK ENGINEER &#183; AI &amp; DATA SCIENCE</text>
+
+  <!-- baseline -->
+  <line x1="24" y1="236" x2="1176" y2="236" stroke="#2A2A2A" stroke-width="1"/>
+
+  <!-- moving scan line -->
+  <line x1="0" y1="0" x2="0" y2="300" stroke="#3F3F46" stroke-width="1" opacity="0.55">
+    <animate attributeName="x1" values="0;1200;0" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="0;1200;0" dur="9s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- footer system labels -->
+  <text x="24" y="272" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="11" letter-spacing="1" fill="#52525B">SYSTEM.STATUS :: BUILDING</text>
+  <text x="1176" y="272" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="11" letter-spacing="1" fill="#52525B" text-anchor="end">B.E. AI &amp; DS &#183; EST. 2027</text>
+</svg>
