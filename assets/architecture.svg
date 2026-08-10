@@ -68,7 +68,7 @@
       <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.2s" repeatCount="indefinite"/>
     </path>
     <!-- AI → OUTPUT -->
-    <path d="M 300 324" d="M 300 324 L 450 358" stroke="#A855F7" stroke-opacity="0.25" stroke-dasharray="4 4">
+    <path d="M 300 324 L 450 358" stroke="#A855F7" stroke-opacity="0.25" stroke-dasharray="4 4">
       <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1s" repeatCount="indefinite"/>
     </path>
     <!-- DATA → OUTPUT -->
