@@ -1,0 +1,52 @@
+<svg viewBox="0 0 860 178" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub stats for RudraChintalwar">
+  <defs>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.5" fill="#1C1C1C"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="topBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#38BDF8"/>
+      <stop offset="50%"  stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#22C55E"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="860" height="178" fill="#0A0A0A" rx="10"/>
+  <rect width="860" height="178" fill="url(#dots)" rx="10" opacity="0.5"/>
+  <rect x="1" y="1" width="858" height="176" fill="none" stroke="#1F1F23" stroke-width="1" rx="9"/>
+  <rect x="0" y="0" width="860" height="3" fill="url(#topBar)" rx="1"/>
+
+  <text x="22" y="25" font-family="'SFMono-Regular',Consolas,monospace" font-size="9" letter-spacing="2.5" fill="#3F3F46">GITHUB.STATS</text>
+  <circle cx="826" cy="19" r="3.5" fill="#22C55E">
+    <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="834" y="23" font-family="'SFMono-Regular',Consolas,monospace" font-size="8" letter-spacing="1" fill="#27272A">LIVE</text>
+  <line x1="22" y1="33" x2="838" y2="33" stroke="#1A1A1A" stroke-width="1"/>
+
+  <!-- REPOS -->
+  <text x="107" y="92" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="44" font-weight="800" fill="#F5F5F5" filter="url(#glow)">8</text>
+  <text x="107" y="118" text-anchor="middle" font-family="'SFMono-Regular',Consolas,monospace" font-size="8" letter-spacing="2" fill="#52525B">PUBLIC REPOS</text>
+  <line x1="215" y1="42" x2="215" y2="138" stroke="#1A1A1A" stroke-width="1"/>
+
+  <!-- STARS -->
+  <text x="322" y="92" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="44" font-weight="800" fill="#F5F5F5" filter="url(#glow)">0</text>
+  <text x="322" y="118" text-anchor="middle" font-family="'SFMono-Regular',Consolas,monospace" font-size="8" letter-spacing="2" fill="#52525B">TOTAL STARS</text>
+  <line x1="430" y1="42" x2="430" y2="138" stroke="#1A1A1A" stroke-width="1"/>
+
+  <!-- CONTRIBUTIONS -->
+  <text x="537" y="88" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="38" font-weight="800" fill="#38BDF8" filter="url(#glow)">203</text>
+  <text x="537" y="110" text-anchor="middle" font-family="'SFMono-Regular',Consolas,monospace" font-size="8" letter-spacing="2" fill="#52525B">CONTRIBUTIONS</text>
+  <text x="537" y="124" text-anchor="middle" font-family="'SFMono-Regular',Consolas,monospace" font-size="7" letter-spacing="1" fill="#27272A">THIS YEAR</text>
+  <line x1="645" y1="42" x2="645" y2="138" stroke="#1A1A1A" stroke-width="1"/>
+
+  <!-- FOLLOWERS -->
+  <text x="752" y="92" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="44" font-weight="800" fill="#F5F5F5" filter="url(#glow)">2</text>
+  <text x="752" y="118" text-anchor="middle" font-family="'SFMono-Regular',Consolas,monospace" font-size="8" letter-spacing="2" fill="#52525B">FOLLOWERS</text>
+
+  <line x1="22" y1="146" x2="838" y2="146" stroke="#1A1A1A" stroke-width="1"/>
+  <text x="22" y="163" font-family="'SFMono-Regular',Consolas,monospace" font-size="7" fill="#27272A">// auto-generated · 2026-08-10 11:10 UTC</text>
+  <text x="838" y="163" text-anchor="end" font-family="'SFMono-Regular',Consolas,monospace" font-size="7" fill="#27272A">RudraChintalwar · GitHub</text>
+</svg>

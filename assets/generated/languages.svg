@@ -1,0 +1,31 @@
+<svg viewBox="0 0 430 124" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Top languages for RudraChintalwar">
+  <defs>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.5" fill="#1C1C1C"/>
+    </pattern>
+    <linearGradient id="topBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="430" height="124" fill="#0A0A0A" rx="10"/>
+  <rect width="430" height="124" fill="url(#dots)" rx="10" opacity="0.5"/>
+  <rect x="1" y="1" width="428" height="122" fill="none" stroke="#1F1F23" stroke-width="1" rx="9"/>
+  <rect x="0" y="0" width="430" height="3" fill="url(#topBar)" rx="1"/>
+
+  <text x="20" y="26" font-family="'SFMono-Regular',Consolas,monospace" font-size="9" letter-spacing="2.5" fill="#3F3F46">TOP.LANGUAGES</text>
+  <circle cx="400" cy="20" r="3.5" fill="#A855F7">
+    <animate attributeName="opacity" values="1;0.2;1" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <line x1="20" y1="35" x2="410" y2="35" stroke="#1A1A1A" stroke-width="1"/>
+  
+  <text x="20" y="62" font-family="'SFMono-Regular',Consolas,monospace" font-size="10.5" fill="#A1A1AA">TypeScript</text>
+  <text x="410" y="62" text-anchor="end" font-family="'SFMono-Regular',Consolas,monospace" font-size="10.5" fill="#52525B">100.0%</text>
+  <rect x="20" y="68" width="390" height="7" rx="3.5" fill="#1A1A1A"/>
+  <rect x="20" y="68" width="0" height="7" rx="3.5" fill="#3178C6" opacity="0.9">
+    <animate attributeName="width" from="0" to="350" begin="0.00s" dur="0.8s" fill="freeze" calcMode="spline" keySplines="0.25 0.46 0.45 0.94" keyTimes="0;1"/>
+  </rect>
+  <line x1="20" y1="104" x2="410" y2="104" stroke="#1A1A1A" stroke-width="1"/>
+  <text x="20" y="117" font-family="'SFMono-Regular',Consolas,monospace" font-size="7" fill="#27272A">// auto-generated · 2026-08-10 11:10 UTC</text>
+</svg>
