@@ -178,14 +178,43 @@ Real-time occupancy detection system built for edge deployment, with privacy-pre
 
 ## Stack
 
-| | |
-|---|---|
-| **LANGUAGES** | ![Python](https://img.shields.io/badge/Python-161616?style=flat-square&logo=python&logoColor=A1A1AA) ![JavaScript](https://img.shields.io/badge/JavaScript-161616?style=flat-square&logo=javascript&logoColor=A1A1AA) ![TypeScript](https://img.shields.io/badge/TypeScript-161616?style=flat-square&logo=typescript&logoColor=A1A1AA) ![C++](https://img.shields.io/badge/C%2B%2B-161616?style=flat-square&logo=cplusplus&logoColor=A1A1AA) ![C](https://img.shields.io/badge/C-161616?style=flat-square&logo=c&logoColor=A1A1AA) |
-| **FRONTEND** | ![React](https://img.shields.io/badge/React.js-161616?style=flat-square&logo=react&logoColor=A1A1AA) ![Next.js](https://img.shields.io/badge/Next.js-161616?style=flat-square&logo=nextdotjs&logoColor=A1A1AA) ![HTML5](https://img.shields.io/badge/HTML5-161616?style=flat-square&logo=html5&logoColor=A1A1AA) ![CSS3](https://img.shields.io/badge/CSS3-161616?style=flat-square&logo=css3&logoColor=A1A1AA) ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-161616?style=flat-square&logo=tailwindcss&logoColor=A1A1AA) |
-| **BACKEND** | ![Node.js](https://img.shields.io/badge/Node.js-161616?style=flat-square&logo=nodedotjs&logoColor=A1A1AA) ![Express](https://img.shields.io/badge/Express.js-161616?style=flat-square&logo=express&logoColor=A1A1AA) ![FastAPI](https://img.shields.io/badge/FastAPI-161616?style=flat-square&logo=fastapi&logoColor=A1A1AA) ![Flask](https://img.shields.io/badge/Flask-161616?style=flat-square&logo=flask&logoColor=A1A1AA) ![REST](https://img.shields.io/badge/RESTful_APIs-161616?style=flat-square&logoColor=A1A1AA) ![WebSockets](https://img.shields.io/badge/WebSockets-161616?style=flat-square&logo=websocket&logoColor=A1A1AA) |
-| **AI / ML** | ![PyTorch](https://img.shields.io/badge/PyTorch-161616?style=flat-square&logo=pytorch&logoColor=A1A1AA) ![TensorFlow](https://img.shields.io/badge/TensorFlow-161616?style=flat-square&logo=tensorflow&logoColor=A1A1AA) ![OpenCV](https://img.shields.io/badge/OpenCV-161616?style=flat-square&logo=opencv&logoColor=A1A1AA) ![YOLOv8](https://img.shields.io/badge/YOLOv8-161616?style=flat-square&logoColor=A1A1AA) ![scikit--learn](https://img.shields.io/badge/scikit--learn-161616?style=flat-square&logo=scikitlearn&logoColor=A1A1AA) ![NLP](https://img.shields.io/badge/NLP-161616?style=flat-square&logoColor=A1A1AA) ![LLM](https://img.shields.io/badge/LLM_Integration-161616?style=flat-square&logoColor=A1A1AA) ![Hugging Face](https://img.shields.io/badge/Hugging_Face-161616?style=flat-square&logo=huggingface&logoColor=A1A1AA) |
-| **DATA** | ![Pandas](https://img.shields.io/badge/Pandas-161616?style=flat-square&logo=pandas&logoColor=A1A1AA) ![NumPy](https://img.shields.io/badge/NumPy-161616?style=flat-square&logo=numpy&logoColor=A1A1AA) ![SQL](https://img.shields.io/badge/SQL-161616?style=flat-square&logoColor=A1A1AA) ![MySQL](https://img.shields.io/badge/MySQL-161616?style=flat-square&logo=mysql&logoColor=A1A1AA) ![SQLite](https://img.shields.io/badge/SQLite-161616?style=flat-square&logo=sqlite&logoColor=A1A1AA) ![MongoDB](https://img.shields.io/badge/MongoDB-161616?style=flat-square&logo=mongodb&logoColor=A1A1AA) ![Firebase](https://img.shields.io/badge/Firebase_Firestore-161616?style=flat-square&logo=firebase&logoColor=A1A1AA) |
-| **TOOLS** | ![Docker](https://img.shields.io/badge/Docker-161616?style=flat-square&logo=docker&logoColor=A1A1AA) ![Git](https://img.shields.io/badge/Git-161616?style=flat-square&logo=git&logoColor=A1A1AA) ![GitHub](https://img.shields.io/badge/GitHub-161616?style=flat-square&logo=github&logoColor=A1A1AA) ![Postman](https://img.shields.io/badge/Postman-161616?style=flat-square&logo=postman&logoColor=A1A1AA) ![Excel](https://img.shields.io/badge/Excel-161616?style=flat-square&logo=microsoftexcel&logoColor=A1A1AA) |
+<div align="center">
+
+<sub><b>LANGUAGES</b></sub>
+
+<img src="https://skillicons.dev/icons?i=py,js,ts,cpp,c&theme=dark" alt="Python, JavaScript, TypeScript, C++, C" />
+
+<sub><b>FRONTEND</b></sub>
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind&theme=dark" alt="React, Next.js, HTML5, CSS3, Tailwind" />
+
+<sub><b>BACKEND</b></sub>
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,flask&theme=dark" alt="Node.js, Express, FastAPI, Flask" />
+![REST](https://img.shields.io/badge/RESTful_APIs-161616?style=flat-square&logoColor=A1A1AA)
+![WebSockets](https://img.shields.io/badge/WebSockets-161616?style=flat-square&logoColor=A1A1AA)
+
+<sub><b>AI / ML</b></sub>
+
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv&theme=dark" alt="PyTorch, TensorFlow, OpenCV" />
+![YOLOv8](https://img.shields.io/badge/YOLOv8-161616?style=flat-square&logoColor=A1A1AA)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-161616?style=flat-square&logo=scikitlearn&logoColor=A1A1AA)
+![NLP](https://img.shields.io/badge/NLP-161616?style=flat-square&logoColor=A1A1AA)
+![LLM](https://img.shields.io/badge/LLM_Integration-161616?style=flat-square&logoColor=A1A1AA)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-161616?style=flat-square&logo=huggingface&logoColor=A1A1AA)
+
+<sub><b>DATA &amp; DATABASES</b></sub>
+
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite,firebase&theme=dark" alt="MongoDB, MySQL, SQLite, Firebase" />
+![Pandas](https://img.shields.io/badge/Pandas-161616?style=flat-square&logo=pandas&logoColor=A1A1AA)
+![NumPy](https://img.shields.io/badge/NumPy-161616?style=flat-square&logo=numpy&logoColor=A1A1AA)
+![SQL](https://img.shields.io/badge/SQL-161616?style=flat-square&logoColor=A1A1AA)
+
+<sub><b>TOOLS &amp; INFRASTRUCTURE</b></sub>
+
+<img src="https://skillicons.dev/icons?i=docker,git,github,postman&theme=dark" alt="Docker, Git, GitHub, Postman" />
+
+</div>
 
 <br>
 
@@ -195,20 +224,35 @@ A record of what I have been building, debugging, experimenting with, and shippi
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=RudraChintalwar&show_icons=true&hide_border=true&bg_color=0A0A0A&title_color=F5F5F5&text_color=A1A1AA&icon_color=71717A&hide_rank=true&cache_seconds=1800" alt="GitHub stats" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RudraChintalwar&layout=compact&hide_border=true&bg_color=0A0A0A&title_color=F5F5F5&text_color=A1A1AA&cache_seconds=1800" alt="Top languages" height="165" />
+<!-- ── Custom live stats (auto-generated every 6h via GitHub Actions) ── -->
+<img src="assets/generated/stats.svg" width="100%" alt="GitHub live stats" />
 
 <br>
 
-<img src="https://streak-stats.demolab.com/?user=RudraChintalwar&hide_border=true&background=0A0A0A&stroke=2A2A2A&ring=F5F5F5&fire=F5F5F5&currStreakLabel=A1A1AA&sideLabels=A1A1AA&currStreakNum=F5F5F5&sideNums=F5F5F5&dates=52525B" alt="GitHub streak stats" />
+<img src="assets/generated/languages.svg" width="49%" alt="Top languages" />
+<img src="https://streak-stats.demolab.com/?user=RudraChintalwar&hide_border=true&background=0A0A0A&stroke=1F1F23&ring=38BDF8&fire=A855F7&currStreakLabel=A1A1AA&sideLabels=A1A1AA&currStreakNum=F5F5F5&sideNums=F5F5F5&dates=3F3F46" alt="GitHub streak stats" width="49%" />
 
 <br>
 
+<!-- ── Profile summary from github-profile-summary-cards ── -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RudraChintalwar&theme=github_dark" width="100%" alt="Profile contribution timeline" />
+
+<br>
+
+<!-- ── Contribution activity graph ── -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=RudraChintalwar&bg_color=0A0A0A&color=52525B&line=27272A&point=A1A1AA&area=true&area_color=141414&hide_border=true&custom_title=CONTRIBUTION+ACTIVITY" width="100%" alt="Contribution activity graph" />
 
 </div>
 
-<sub>Stats cards: [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) · [streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats) · [activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph)</sub>
+<sub>Live stats auto-updated every 6h · [generate-stats workflow](.github/workflows/generate-stats.yml) · [streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats) · [activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph)</sub>
+
+<br>
+
+## Trophies
+
+<div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=RudraChintalwar&theme=darkhub&no-frame=true&column=6&margin-w=8&margin-h=8" alt="GitHub trophies" />
+</div>
 
 <br>
 
@@ -226,6 +270,12 @@ A record of what I have been building, debugging, experimenting with, and shippi
 <br>
 
 ## Currently Building
+
+<div align="center">
+<img src="assets/terminal.svg" width="680" alt="Animated terminal: portfolio project dev session" />
+</div>
+
+<br>
 
 Working on a **personal portfolio site** — a full-stack, interactive developer portfolio designed to be as engineered as the work it showcases. Custom animations, live project data from the GitHub API, and a contact system backed by a lightweight API. Built with Next.js, Framer Motion, and deployed on Vercel.
 
