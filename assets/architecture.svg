@@ -1,0 +1,129 @@
+<svg viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram: input flows through an API into processing, which branches into AI and data, converging into output">
+  <defs>
+    <!-- dot grid -->
+    <pattern id="dotgrid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.6" fill="#1A1A1A"/>
+    </pattern>
+    <!-- glow filters per node type -->
+    <filter id="glowBlue" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="0 0 0 0 0.2  0 0 0 0 0.6  0 0 0 0 1  0 0 0 0.5 0" result="colored"/>
+      <feMerge><feMergeNode in="colored"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowPurple" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="0 0 0 0 0.6  0 0 0 0 0.2  0 0 0 0 1  0 0 0 0.5 0" result="colored"/>
+      <feMerge><feMergeNode in="colored"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowGreen" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="0 0 0 0 0.1  0 0 0 0 0.8  0 0 0 0 0.4  0 0 0 0.5 0" result="colored"/>
+      <feMerge><feMergeNode in="colored"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowWhite" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.4 0" result="colored"/>
+      <feMerge><feMergeNode in="colored"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- animated dash line gradient -->
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.4"/>
+    </linearGradient>
+    <!-- signal trail gradient -->
+    <radialGradient id="signalGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F5F5F5" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#F5F5F5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="900" height="420" fill="#0A0A0A"/>
+  <rect width="900" height="420" fill="url(#dotgrid)" opacity="0.8"/>
+
+  <!-- header label -->
+  <text x="24" y="28" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="10" letter-spacing="3" fill="#3F3F46">HOW SYSTEMS ARE COMPOSED</text>
+  <line x1="24" y1="36" x2="876" y2="36" stroke="#1A1A1A" stroke-width="1"/>
+
+  <!-- ─── CONNECTING LINES (animated dashes) ─── -->
+  <g stroke="#2A2A2A" stroke-width="1.5" fill="none">
+    <!-- INPUT → API -->
+    <line x1="450" y1="84" x2="450" y2="122" stroke="#38BDF8" stroke-opacity="0.25" stroke-dasharray="4 4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1s" repeatCount="indefinite"/>
+    </line>
+    <!-- API → PROCESSING -->
+    <line x1="450" y1="164" x2="450" y2="204" stroke="#38BDF8" stroke-opacity="0.25" stroke-dasharray="4 4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1s" repeatCount="indefinite"/>
+    </line>
+    <!-- PROCESSING → AI -->
+    <path d="M 450 246 L 300 282" stroke="#A855F7" stroke-opacity="0.25" stroke-dasharray="4 4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.2s" repeatCount="indefinite"/>
+    </path>
+    <!-- PROCESSING → DATA -->
+    <path d="M 450 246 L 600 282" stroke="#22C55E" stroke-opacity="0.25" stroke-dasharray="4 4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.2s" repeatCount="indefinite"/>
+    </path>
+    <!-- AI → OUTPUT -->
+    <path d="M 300 324" d="M 300 324 L 450 358" stroke="#A855F7" stroke-opacity="0.25" stroke-dasharray="4 4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1s" repeatCount="indefinite"/>
+    </path>
+    <!-- DATA → OUTPUT -->
+    <path d="M 600 324 L 450 358" stroke="#22C55E" stroke-opacity="0.25" stroke-dasharray="4 4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- solid base lines (so they show even without animation) -->
+  <g stroke="#222222" stroke-width="1" fill="none">
+    <line x1="450" y1="84" x2="450" y2="122"/>
+    <line x1="450" y1="164" x2="450" y2="204"/>
+    <path d="M 450 246 L 300 282"/>
+    <path d="M 450 246 L 600 282"/>
+    <path d="M 300 324 L 450 358"/>
+    <path d="M 600 324 L 450 358"/>
+  </g>
+
+  <!-- ─── TRAVELING SIGNAL ─── -->
+  <circle r="4" fill="#F5F5F5" filter="url(#glowWhite)">
+    <animateMotion dur="5s" repeatCount="indefinite" calcMode="linear"
+      path="M 450 60 L 450 122 L 450 204 L 300 282 L 300 358 L 450 358 L 450 204 L 600 282 L 600 358 L 450 358"/>
+  </circle>
+  <!-- trailing glow dot -->
+  <circle r="8" fill="#38BDF8" opacity="0.12">
+    <animateMotion dur="5s" repeatCount="indefinite" calcMode="linear"
+      path="M 450 60 L 450 122 L 450 204 L 300 282 L 300 358 L 450 358 L 450 204 L 600 282 L 600 358 L 450 358"/>
+  </circle>
+
+  <!-- ─── INPUT NODE ─── -->
+  <rect x="374" y="58" width="152" height="28" rx="4" fill="#0F172A" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.6" filter="url(#glowBlue)"/>
+  <text x="450" y="76" text-anchor="middle" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="11" letter-spacing="3" fill="#7DD3FC">INPUT</text>
+
+  <!-- ─── API NODE ─── -->
+  <rect x="374" y="124" width="152" height="40" rx="4" fill="#0F172A" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="450" y="148" text-anchor="middle" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="11" letter-spacing="3" fill="#93C5FD">API / REST</text>
+
+  <!-- ─── PROCESSING NODE ─── -->
+  <rect x="354" y="206" width="192" height="40" rx="4" fill="#0F0F1A" stroke="#6366F1" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="450" y="230" text-anchor="middle" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="11" letter-spacing="3" fill="#A5B4FC">PROCESSING</text>
+
+  <!-- ─── AI NODE ─── -->
+  <rect x="214" y="284" width="172" height="40" rx="4" fill="#130F1A" stroke="#A855F7" stroke-width="1" stroke-opacity="0.6" filter="url(#glowPurple)"/>
+  <text x="300" y="303" text-anchor="middle" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="10" letter-spacing="2" fill="#D8B4FE">◈ AI / ML</text>
+  <text x="300" y="318" text-anchor="middle" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="9" letter-spacing="1" fill="#7C3AED" opacity="0.7">NLP · LLM · VISION</text>
+
+  <!-- ─── DATA NODE ─── -->
+  <rect x="514" y="284" width="172" height="40" rx="4" fill="#0A130F" stroke="#22C55E" stroke-width="1" stroke-opacity="0.6" filter="url(#glowGreen)"/>
+  <text x="600" y="303" text-anchor="middle" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="10" letter-spacing="2" fill="#86EFAC">⬡ DATA</text>
+  <text x="600" y="318" text-anchor="middle" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="9" letter-spacing="1" fill="#16A34A" opacity="0.7">PIPELINES · SQL · ANALYTICS</text>
+
+  <!-- ─── OUTPUT NODE ─── -->
+  <rect x="374" y="360" width="152" height="28" rx="4" fill="#0F172A" stroke="#F5F5F5" stroke-width="1" stroke-opacity="0.4" filter="url(#glowWhite)"/>
+  <text x="450" y="378" text-anchor="middle" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="11" letter-spacing="3" fill="#F5F5F5">OUTPUT</text>
+
+  <!-- footer -->
+  <text x="24" y="408" font-family="'SFMono-Regular', Consolas, Menlo, monospace" font-size="9" letter-spacing="2" fill="#27272A">// input → api → processing → [ai | data] → output</text>
+</svg>
