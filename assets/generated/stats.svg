@@ -27,7 +27,7 @@
   <line x1="22" y1="33" x2="838" y2="33" stroke="#1A1A1A" stroke-width="1"/>
 
   <!-- REPOS -->
-  <text x="107" y="92" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="44" font-weight="800" fill="#F5F5F5" filter="url(#glow)">8</text>
+  <text x="107" y="92" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="44" font-weight="800" fill="#F5F5F5" filter="url(#glow)">7</text>
   <text x="107" y="118" text-anchor="middle" font-family="'SFMono-Regular',Consolas,monospace" font-size="8" letter-spacing="2" fill="#52525B">PUBLIC REPOS</text>
   <line x1="215" y1="42" x2="215" y2="138" stroke="#1A1A1A" stroke-width="1"/>
 
@@ -47,6 +47,6 @@
   <text x="752" y="118" text-anchor="middle" font-family="'SFMono-Regular',Consolas,monospace" font-size="8" letter-spacing="2" fill="#52525B">FOLLOWERS</text>
 
   <line x1="22" y1="146" x2="838" y2="146" stroke="#1A1A1A" stroke-width="1"/>
-  <text x="22" y="163" font-family="'SFMono-Regular',Consolas,monospace" font-size="7" fill="#27272A">// auto-generated · 2026-08-17 12:24 UTC</text>
+  <text x="22" y="163" font-family="'SFMono-Regular',Consolas,monospace" font-size="7" fill="#27272A">// auto-generated · 2026-08-18 00:42 UTC</text>
   <text x="838" y="163" text-anchor="end" font-family="'SFMono-Regular',Consolas,monospace" font-size="7" fill="#27272A">RudraChintalwar · GitHub</text>
 </svg>
